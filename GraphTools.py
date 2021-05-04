@@ -92,7 +92,8 @@ class MyGraph(nx.Graph):
         for i in solution:
             solution_bitstring += str(i)
 
-        qpu_access_time = str(response.info["timing"]["qpu_access_time"]) + " microseconds"
+        # Returns the QPU Access time in MICROSECONDS
+        qpu_access_time = response.info["timing"]["qpu_access_time"]
 
         if return_runtime:
             return solution_bitstring, qpu_access_time
