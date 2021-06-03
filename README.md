@@ -13,3 +13,13 @@ Note that the Qiskit solution runs on a simulator, not actual quantum hardware.
 * The notebook **Comparison.ipynb** compares the accuracy and runtimes of the D-Wave solution, Qiskit solution, and classical solution. *This is the file that shows the results you may be interested in*.
 * The notebook **DWaveVsClassical.ipynb** does a similar comparison for just the D-Wave and classical solution. This shows the results for slightly larger graphs. The Qiskit solution was not included in this file because it was too slow.
 * The Images folder contains some images used in the Jupyter notebooks. These images were used to explain my implementation of the QAOA algorithm in Qiskit.
+
+## References
+
+1. Musty Thoughts. https://www.mustythoughts.com/quantum-approximate-optimization-algorithm-explained
+2. Musty Thoughts. https://www.mustythoughts.com/vqas-how-do-they-work
+3. Jack Ceroni's code: https://lucaman99.github.io/new_blog/2020/mar16.html
+4. Ruslan Shaydulin's Tutorial [Part 1]: https://youtu.be/AOKM9BkweVU
+5. Ruslan Shaydulin's Tutorial [Part 2]: https://youtu.be/E0Sos_lR-kI
+6. Ruslan Shaydulin's Notebook: https://github.com/rsln-s/IEEE_QW_2020
+7. D-Wave Tutorial for Maxcut: https://github.com/dwave-examples/maximum-cut
